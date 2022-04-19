@@ -10,3 +10,4 @@ def cities_dict(cities:list):
     return cities
 cities={'1':"Olmaliq",'2':"Ohangaron",'3':"To'ytepa" ,'4':"Toshkent"}
 print(cities_dict(cities))
+
