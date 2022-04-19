@@ -8,6 +8,6 @@ def cities_dict(cities:list):
     """
     a=enumerate(cities)
     return list(a)
-cities=["Olmaliq","Ohangaron","To'ytepa","Toshkent"]
+cities=["Samarkand","Tashkent"]
 print(cities_dict(cities))
 
