@@ -10,6 +10,6 @@ def create_dictionary(key, value):
     
     
     return dict(zip(l1,l2))
-l1=["a","b","c","d"]
-l2=[1,2,3,4]
+l2=["a","b","c","d"]
+l1=[1,2,3,4]
 print(create_dictionary(l1,l2))
