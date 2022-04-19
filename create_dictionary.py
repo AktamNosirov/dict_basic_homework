@@ -7,4 +7,9 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    
+    
+    return dict(zip(l1,l2))
+l1=["a","b","c","d"]
+l2=[1,2,3,4]
+print(create_dictionary(l1,l2))
