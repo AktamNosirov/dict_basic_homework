@@ -7,4 +7,13 @@ def count_all(txt):
     Returns:
         dict: dictionary with letters and digits
     """
-    return
+    dict={ "Letters":0 , "Digits":0}
+    index=0
+    for i in range(len(txt)):
+        if txt[index].isalpha() :
+            dict["Letters"]+=1
+        if txt[index].isdigit() :
+            dict["Digits"]+=1    
+        index+=1     
+    return dict
+print(count_all("rg git 546"))
