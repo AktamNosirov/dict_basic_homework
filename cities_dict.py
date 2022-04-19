@@ -6,8 +6,8 @@ def cities_dict(cities:list):
     Returns:
         dict: dictionary with keys ordered by city name
     """
-    
-    return enumerate(cities)
-cities={"Olmaliq","Ohangaron","To'ytepa","Toshkent"}
+    a=enumerate(cities)
+    return list(a)
+cities=["Olmaliq","Ohangaron","To'ytepa","Toshkent"]
 print(cities_dict(cities))
 
