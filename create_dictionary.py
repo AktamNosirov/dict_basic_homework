@@ -9,8 +9,8 @@ def create_dictionary(key, value):
     """
     
     
-    return dict(zip(l1,l2))
+    return dict(zip(key,value))
 l1=[1,2,3]
 l2=["one","two","three"]
 
-print(create_dictionary(l1 , l2))
+print(create_dictionary(l1,l2))
